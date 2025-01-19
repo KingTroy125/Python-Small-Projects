@@ -11,8 +11,8 @@ def get_system_info():
     print(f"Version: {uname.version}")
     print(f"Machine: {uname.machine}")
     print(f"Processor: {uname.processor}")
-    print("=" * 40)
-
+    print("=" * 40) 
+    
 def get_boot_time():
     boot_time_timestamp = psutil.boot_time()
     bt = datetime.fromtimestamp(boot_time_timestamp)
